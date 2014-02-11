@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Fruit.h"
+#import "Vegetable.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSMutableArray *cart;
@@ -22,12 +23,21 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.cart = [[NSMutableArray alloc] init];
     NSString *itemName;
-    NSString *fruitName = @"Bananas";
+    NSString *vegName = @"Onion";
+    NSString *vegName2 = @"Potato";
+    NSString *vegName3 = @"Pumpkin";
+    
     
     for (int i = 0; i<50; i++) {
-        itemName = [[NSString alloc] initWithFormat:@"%@ %d", fruitName, i];
-        Fruit *tempFruit = [[Fruit alloc] initWithName:itemName andShape:@"Curved" andColor:@"Yellow"];
-        [self.cart addObject:tempFruit];
+        itemName = [[NSString alloc] initWithFormat:@"%@ %d", vegName, i];
+        Vegetable *tempVeg = [[Vegetable alloc] initWithName:itemName andShape:@"Round" andColor:@"Yellow"];
+        [self.cart addObject:tempVeg];
+        itemName = [[NSString alloc] initWithFormat:@"%@ %d", vegName2, i];
+        tempVeg = [[Vegetable alloc] initWithName:itemName andShape:@"Irregular oval" andColor:@"Brown"];
+        [self.cart addObject:tempVeg];
+        itemName = [[NSString alloc] initWithFormat:@"%@ %d", vegName3, i];
+        tempVeg = [[Vegetable alloc] initWithName:itemName andShape:@"Round" andColor:@"Orange"];
+        [self.cart addObject:tempVeg];
     }
 }
 
@@ -44,7 +54,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    NSString *identifier = @"fruitCell";
+    NSString *identifier = @"vegetableCell";
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     
     cell.textLabel.text = [[self.cart objectAtIndex:[indexPath row]] name];

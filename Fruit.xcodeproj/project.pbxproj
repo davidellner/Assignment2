@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38A3D86418A99DE100A104CC /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3D86318A99DE100A104CC /* Fruit.m */; };
+		38A3D86718A99FF500A104CC /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3D86618A99FF500A104CC /* Vegetable.m */; };
+		38A3D86A18A9A5E900A104CC /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3D86918A9A5E900A104CC /* Apple.m */; };
+		38A3D86D18A9A5F300A104CC /* GrannySmith.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3D86C18A9A5F300A104CC /* GrannySmith.m */; };
+		38A3D86F18A9A69D00A104CC /* Screen Shot 2014-02-10 at 7.29.14 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A3D86E18A9A69D00A104CC /* Screen Shot 2014-02-10 at 7.29.14 PM.png */; };
 		8B650731189808D400D912AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650730189808D400D912AF /* UIKit.framework */; };
 		8B650733189808D400D912AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650732189808D400D912AF /* Foundation.framework */; };
 		8B650735189808D400D912AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650734189808D400D912AF /* CoreGraphics.framework */; };
@@ -21,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38A3D86218A99DD500A104CC /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		38A3D86318A99DE100A104CC /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		38A3D86518A99FF500A104CC /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		38A3D86618A99FF500A104CC /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		38A3D86818A9A5E900A104CC /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		38A3D86918A9A5E900A104CC /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		38A3D86B18A9A5F300A104CC /* GrannySmith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrannySmith.h; sourceTree = "<group>"; };
+		38A3D86C18A9A5F300A104CC /* GrannySmith.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrannySmith.m; sourceTree = "<group>"; };
+		38A3D86E18A9A69D00A104CC /* Screen Shot 2014-02-10 at 7.29.14 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-02-10 at 7.29.14 PM.png"; sourceTree = "<group>"; };
 		8B65072D189808D400D912AF /* Fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B650730189808D400D912AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B650732189808D400D912AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +70,7 @@
 		8B650724189808D400D912AF = {
 			isa = PBXGroup;
 			children = (
+				38A3D86E18A9A69D00A104CC /* Screen Shot 2014-02-10 at 7.29.14 PM.png */,
 				8B650736189808D400D912AF /* Fruit */,
 				8B65072F189808D400D912AF /* Frameworks */,
 				8B65072E189808D400D912AF /* Products */,
@@ -83,12 +98,20 @@
 		8B650736189808D400D912AF /* Fruit */ = {
 			isa = PBXGroup;
 			children = (
+				38A3D86B18A9A5F300A104CC /* GrannySmith.h */,
+				38A3D86C18A9A5F300A104CC /* GrannySmith.m */,
+				38A3D86818A9A5E900A104CC /* Apple.h */,
+				38A3D86918A9A5E900A104CC /* Apple.m */,
+				38A3D86318A99DE100A104CC /* Fruit.m */,
+				38A3D86218A99DD500A104CC /* Fruit.h */,
 				8B65073F189808D400D912AF /* AppDelegate.h */,
 				8B650740189808D400D912AF /* AppDelegate.m */,
 				8B650748189808D400D912AF /* ViewController.h */,
 				8B650749189808D400D912AF /* ViewController.m */,
 				8B65074B189808D400D912AF /* ViewController.xib */,
 				8B650737189808D400D912AF /* Supporting Files */,
+				38A3D86518A99FF500A104CC /* Vegetable.h */,
+				38A3D86618A99FF500A104CC /* Vegetable.m */,
 			);
 			path = Fruit;
 			sourceTree = "<group>";
@@ -162,6 +185,7 @@
 				8B650743189808D400D912AF /* Default.png in Resources */,
 				8B650745189808D400D912AF /* Default@2x.png in Resources */,
 				8B650747189808D400D912AF /* Default-568h@2x.png in Resources */,
+				38A3D86F18A9A69D00A104CC /* Screen Shot 2014-02-10 at 7.29.14 PM.png in Resources */,
 				8B65074D189808D400D912AF /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A3D86D18A9A5F300A104CC /* GrannySmith.m in Sources */,
+				38A3D86A18A9A5E900A104CC /* Apple.m in Sources */,
+				38A3D86718A99FF500A104CC /* Vegetable.m in Sources */,
+				38A3D86418A99DE100A104CC /* Fruit.m in Sources */,
 				8B65073D189808D400D912AF /* main.m in Sources */,
 				8B650741189808D400D912AF /* AppDelegate.m in Sources */,
 				8B65074A189808D400D912AF /* ViewController.m in Sources */,
@@ -298,6 +326,7 @@
 				8B650752189808D500D912AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
